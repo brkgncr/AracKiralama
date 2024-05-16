@@ -11,7 +11,7 @@ namespace AracKiralama
 {
     class Arac_Kiralama
     {
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-30OVI71;Initial Catalog=Arac_Kiralama;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=ENTER YOUR SERVER NAME HERE;Initial Catalog=Arac_Kiralama;Integrated Security=True");
         DataTable tablo;
 
         public void ekle_sil_guncelle(SqlCommand komut,string sorgu)
